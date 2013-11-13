@@ -1,25 +1,25 @@
 AndroidDynamicFragmentDemo
 ==========================
 This application sample will show you how to handle the fragments in a application based on the user click.
-GitHub link : https://github.com/ranvijaySingh-Webonise/AndroidDynamicFragmentDemo
-There are very specific steps to do this .
-
-Step 1: Create your layout for the fragments .
-Step 2: create your fragments classes.
-Step 3 : Create your main Activity “MainActivity.java”
-
-Now to understand the concept of fragment you need to know about few function and methods that fragments need to execute .
-
-FragmentManager :   (Abstract Class) - interface to interact with the fragment with Activity.
-FragmentTransaction : (Abstract Class) - API for performing a set of Fragment operations.
---- Transaction should be performed every time you shift from one fragment to another----
-- FUNCTIONS-
-		-add() : adds a complete new Fragment to the UI.
--remove() : removes the fragment from the activity.
--replace() : replace the existing fragment that was added to layout. 
--commit() : make you fragment visible to the UI.
-	---there cannot be more than one commit on a fragment ---
-      ---if you need to commit the present fragment , replace or remove the previous fragment---
+<br/>GitHub link : https://github.com/ranvijaySingh-Webonise/AndroidDynamicFragmentDemo
+<br/>There are very specific steps to do this .
+<br/>
+<br/>Step 1: Create your layout for the fragments .
+<br/>Step 2: create your fragments classes.
+<br/>Step 3 : Create your main Activity “MainActivity.java”
+<br/>
+<br/>Now to understand the concept of fragment you need to know about few function and methods that fragments need to execute .
+<br/>
+<br/>FragmentManager :   (Abstract Class) - interface to interact with the fragment with Activity.
+<br/>FragmentTransaction : (Abstract Class) - API for performing a set of Fragment operations.
+<br/>--- Transaction should be performed every time you shift from one fragment to another----
+<br/>- FUNCTIONS-
+<br/>		-add() : adds a complete new Fragment to the UI.
+<br/>-remove() : removes the fragment from the activity.
+<br/>-replace() : replace the existing fragment that was added to layout. 
+<br/>-commit() : make you fragment visible to the UI.
+<br/>	---there cannot be more than one commit on a fragment ---
+<br/>      ---if you need to commit the present fragment , replace or remove the previous fragment---
 ____________________________________________________________________________________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________
 Now your “activity_main.xml”
